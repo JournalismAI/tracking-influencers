@@ -1,4 +1,4 @@
-# ![LOGO](https://github.com/jaifp-tracking-influencers/assets/raw/main/img/logo-45x45.png) Tracking influencers
+# ![LOGO](https://github.com/jaifp-tracking-influencers/assets/raw/main/img/logo-50x50.png) Tracking influencers
 
 Methodology and system that helps to investigate social media influencers and identify “shady” accounts.
 
