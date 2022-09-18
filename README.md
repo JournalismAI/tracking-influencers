@@ -21,7 +21,7 @@ Python scraping library tests
 
 
 ### ↔️ tensorsocial-to-strapi
-Script to import data from Tensor Social in db
+Script to import data from Tensor Social to db
 > [tensorsocial-to-strapi](https://github.com/jaifp-tracking-influencers/tensorsocial-to-strapi)
 
 
