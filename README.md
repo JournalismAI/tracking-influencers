@@ -2,6 +2,9 @@
 
 Methodology and system that helps to investigate social media influencers and identify “shady” accounts.
 
+## Project documentation
+> [web app url](https://lab-ui-03.ilsole24ore.com/)
+
 ## Repos
 some are currently private but will become public
 
