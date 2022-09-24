@@ -37,3 +37,7 @@ App to interact with Tensor Social API
 Chrome extension to save Tensor Social query locally for the API use
 > [tensorquery](https://github.com/jaifp-tracking-influencers/tensorquery)
 
+### 🏷️ brands-import
+Script to import Instagram profiles of 25,282 brands to db
+> [brands-import](https://github.com/jaifp-tracking-influencers/brands-import)
+
