@@ -28,6 +28,11 @@ Script to import data from Tensor Social to db
 > [tensorsocial-to-strapi](https://github.com/jaifp-tracking-influencers/tensorsocial-to-strapi)
 
 
+### ✉️ influ-post-import
+Script to import scraped posts to db
+> [influ-post-import](https://github.com/jaifp-tracking-influencers/influ-post-import)
+
+
 ### 🛠️ tensorsocial
 App to interact with Tensor Social API
 > [tensorsocial](https://github.com/jaifp-tracking-influencers/tensorsocial)
