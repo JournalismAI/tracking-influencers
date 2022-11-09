@@ -3,7 +3,7 @@
 Methodology and system that helps to investigate social media influencers and identify “shady” accounts.
 
 ## 📃 Project documentation
-> [web app url](https://lab-ui-03.ilsole24ore.com/)
+> [web app url](https://tracking-influencers.com/)
 
 ## Repos
 some are currently private but will become public
@@ -16,6 +16,11 @@ Project documentation
 ### ⚙️ backend-influencers
 Strapi CMS
 > [backend-influencers](https://github.com/jaifp-tracking-influencers/backend-influencers)
+
+
+### 📈 analysis
+Data analysis script
+> [analysis](https://github.com/jaifp-tracking-influencers/analysis)
 
 
 ### 🔎 ig-scraping-test
