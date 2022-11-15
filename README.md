@@ -8,6 +8,10 @@ Methodology and system that helps to investigate social media influencers and id
 ## Repos
 some are currently private but will become public
 
+### ✏️ backend-docs-influencers
+Documentation backend
+> [backend-docs-influencers](https://github.com/jaifp-tracking-influencers/backend-docs-influencers)
+
 ### 📸 frontend-influencers
 Project documentation
 > [frontend-influencers](https://github.com/jaifp-tracking-influencers/frontend-influencers)
