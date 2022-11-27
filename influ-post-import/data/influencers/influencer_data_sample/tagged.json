@@ -1,0 +1,13 @@
+[
+  {
+    "pk": "id",
+    "username": "username",
+    "full_name": "Influencer name",
+    "is_private": false,
+    "pk_id": "id",
+    "profile_pic_id": "id",
+    "is_verified": false,
+    "url": "https://instagram.com/username",
+    "id": "post_id"
+  }
+]

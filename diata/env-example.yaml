@@ -1,0 +1,13 @@
+PROJECT_ID: gcp_project_id
+KEYFILENAME: gcp_sa_private-key.json
+INSTAGRAM_HOST: instagram.com
+INSTAGRAM_USER: username
+INSTAGRAM_PASSWORD: password
+INSTAGRAM_PROFILES: true
+INSTAGRAM_POSTS: true
+INSTAGRAM_IMAGES: true
+INSTAGRAM_POSTS_LIMIT: 100
+PULL_CF: pull_cf_name
+PULL_CF_REGIONS: us-central1,us-east1
+PULL_IMAGE: image_cf_name
+PULL_IMAGE_REGIONS: europe-west2,europe-west3

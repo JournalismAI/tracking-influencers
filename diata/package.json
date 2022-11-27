@@ -1,0 +1,35 @@
+{
+  "name": "diata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "deploy": "node ./lib/deploy.js",
+    "useragents": "node ./lib/useragents.js --update",
+    "cleanup": "node ./lib/cleanup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions": "^2.2.3",
+    "@supercharge/promise-pool": "^2.3.2",
+    "csvtojson": "^2.0.10",
+    "dayjs": "^1.11.5",
+    "dotenv-yaml": "^0.1.4",
+    "google-auth-library": "^8.4.0",
+    "iterable-ndjson": "^1.1.0",
+    "json-to-csv-stream": "^1.1.0",
+    "mkdirp": "^1.0.4",
+    "node-fetch": "^2.6.7",
+    "percent-value": "^1.0.9",
+    "pretty-hrtime": "^1.0.3",
+    "puppeteer": "^16.2.0",
+    "random-int": "^2.0.1",
+    "randomstring": "^1.2.2",
+    "ua-parser-js": "^1.0.32",
+    "xml-escape": "^1.1.0"
+  }
+}
