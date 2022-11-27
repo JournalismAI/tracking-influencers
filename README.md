@@ -27,11 +27,6 @@ Data analysis script
 > [analysis](https://github.com/JournalismAI/tracking-influencers/analysis)
 
 
-### 🔎 ig-scraping-test
-Python scraping library tests
-> [ig-scraping-test](https://github.com/JournalismAI/tracking-influencers/ig-scraping-test)
-
-
 ### ↔️ tensorsocial-to-strapi
 Script to import data from Tensor Social to db
 > [tensorsocial-to-strapi](https://github.com/JournalismAI/tracking-influencers/tensorsocial-to-strapi)
@@ -54,4 +49,9 @@ Chrome extension to save Tensor Social query locally for the API use
 ### 🏷️ brands-import
 Script to import Instagram profiles of 25,282 brands to db
 > [brands-import](https://github.com/JournalismAI/tracking-influencers/brands-import)
+
+
+### 🔎 lib-test
+Python scraping library tests
+> [lib-test](https://github.com/JournalismAI/tracking-influencers/lib-test)
 
