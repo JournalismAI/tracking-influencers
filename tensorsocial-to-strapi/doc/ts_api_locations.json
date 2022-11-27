@@ -1,0 +1,32 @@
+[
+  {
+    "id": 62149,
+    "name": "United Kingdom",
+    "title": "United Kingdom",
+    "country": {
+      "id": 62149,
+      "code": "GB"
+    },
+    "locationType": ["country"]
+  },
+  {
+    "id": 365331,
+    "name": "Italy",
+    "title": "Italy",
+    "country": {
+      "id": 365331,
+      "code": "IT"
+    },
+    "locationType": ["country"]
+  },
+  {
+    "id": 114686,
+    "name": "Mexico",
+    "title": "Mexico",
+    "country": {
+      "id": 114686,
+      "code": "MX"
+    },
+    "locationType": ["country"]
+  }
+]

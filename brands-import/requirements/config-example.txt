@@ -1,0 +1,4 @@
+STRAPI_API_TOKEN_READ = 'alphanumeric_string'
+STRAPI_API_TOKEN_WRITE = 'alphanumeric_string'
+STRAPI_ENDPOINT = 'server:port'
+STRAPI_API_CONN = 'url'

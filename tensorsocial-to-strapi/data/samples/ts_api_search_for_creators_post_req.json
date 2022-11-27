@@ -1,0 +1,157 @@
+{
+  "search": {
+    "audience_age": [
+      {
+        "code": "13-17",
+        "weight": 0.25
+      }
+    ],
+    "audience_age_range": {
+      "left_number": "13",
+      "right_number": "17",
+      "weight": 0.25,
+      "operator": "gte"
+    },
+    "audience_brand": [
+      {
+        "id": 0,
+        "weight": 0.1
+      }
+    ],
+    "audience_brand_category": [
+      {
+        "id": 0,
+        "weight": 0.1
+      }
+    ],
+    "audience_gender": {
+      "code": "MALE",
+      "weight": 0.5
+    },
+    "audience_geo": [
+      {
+        "id": 0,
+        "weight": 0.05
+      }
+    ],
+    "audience_lang": {
+      "code": "st",
+      "weight": 0.2
+    },
+    "audience_race": {
+      "code": "Black",
+      "weight": 0.3
+    },
+    "audience_relevance": {
+      "value": "string"
+    },
+    "audience_credibility": 0,
+    "audience_credibility_class": ["bad"],
+    "brand": [0],
+    "brand_category": [0],
+    "engagements": {
+      "left_number": 0,
+      "right_number": 0
+    },
+    "views": {
+      "left_number": 0,
+      "right_number": 0
+    },
+    "posts_count": {
+      "left_number": 0,
+      "right_number": 0
+    },
+    "reels_plays": {
+      "left_number": 0,
+      "right_number": 0
+    },
+    "followers": {
+      "left_number": 0,
+      "right_number": 0
+    },
+    "gender": {
+      "code": "MALE"
+    },
+    "age": {
+      "left_number": "18",
+      "right_number": "18"
+    },
+    "geo": [
+      {
+        "id": 0
+      }
+    ],
+    "lang": {
+      "code": "string"
+    },
+    "followers_growth": {
+      "interval": "i1month",
+      "value": 0,
+      "operator": "gte"
+    },
+    "total_views_growth": {
+      "interval": "i1month",
+      "value": 0,
+      "operator": "gte"
+    },
+    "total_likes_growth": {
+      "interval": "i1month",
+      "value": 0,
+      "operator": "gte"
+    },
+    "relevance": {
+      "value": "string",
+      "weight": 0.5
+    },
+    "text": "string",
+    "keywords": "string",
+    "text_tags": [
+      {
+        "type": "hashtag",
+        "value": "string",
+        "action": "should"
+      }
+    ],
+    "engagement_rate": {
+      "value": 0,
+      "operator": "gte"
+    },
+    "is_hidden": true,
+    "is_verified": true,
+    "is_official_artist": true,
+    "last_posted": 30,
+    "account_type": [0],
+    "has_ads": true,
+    "with_contact": [
+      {
+        "type": "bbm",
+        "action": "should"
+      }
+    ],
+    "list": [
+      {
+        "id": 0,
+        "action": "should"
+      }
+    ],
+    "username": {
+      "value": "string",
+      "operator": "prefix"
+    },
+    "actions": [
+      {
+        "filter": "followers",
+        "action": "must"
+      }
+    ]
+  },
+  "sort": {
+    "field": "engagements",
+    "direction": "desc"
+  },
+  "paging": {
+    "limit": 100,
+    "skip": 0
+  },
+  "platform": "instagram"
+}

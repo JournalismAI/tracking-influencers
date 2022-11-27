@@ -1,0 +1,665 @@
+{
+  "status": true,
+  "data": [
+    {
+      "code": "en",
+      "name": "English"
+    },
+    {
+      "code": "es",
+      "name": "Spanish"
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese"
+    },
+    {
+      "code": "fr",
+      "name": "French"
+    },
+    {
+      "code": "ar",
+      "name": "Arabic"
+    },
+    {
+      "code": "ru",
+      "name": "Russian"
+    },
+    {
+      "code": "it",
+      "name": "Italian"
+    },
+    {
+      "code": "de",
+      "name": "German"
+    },
+    {
+      "code": "fa",
+      "name": "Persian"
+    },
+    {
+      "code": "id",
+      "name": "Indonesian"
+    },
+    {
+      "code": "tr",
+      "name": "Turkish"
+    },
+    {
+      "code": "ja",
+      "name": "Japanese"
+    },
+    {
+      "code": "pl",
+      "name": "Polish"
+    },
+    {
+      "code": "th",
+      "name": "Thai"
+    },
+    {
+      "code": "zh",
+      "name": "Chinese"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi"
+    },
+    {
+      "code": "ms",
+      "name": "Malay"
+    },
+    {
+      "code": "ko",
+      "name": "Korean"
+    },
+    {
+      "code": "uk",
+      "name": "Ukrainian"
+    },
+    {
+      "code": "nl",
+      "name": "Dutch"
+    },
+    {
+      "code": "arz",
+      "name": "Arabic (Egyptian)"
+    },
+    {
+      "code": "ne",
+      "name": "Nepali"
+    },
+    {
+      "code": "az",
+      "name": "Azerbaijani"
+    },
+    {
+      "code": "pa",
+      "name": "Panjabi"
+    },
+    {
+      "code": "gu",
+      "name": "Gujarati"
+    },
+    {
+      "code": "sv",
+      "name": "Swedish"
+    },
+    {
+      "code": "kk",
+      "name": "Kazakh"
+    },
+    {
+      "code": "he",
+      "name": "Hebrew"
+    },
+    {
+      "code": "ro",
+      "name": "Romanian"
+    },
+    {
+      "code": "ckb",
+      "name": "Kurdish, Central"
+    },
+    {
+      "code": "cs",
+      "name": "Czech"
+    },
+    {
+      "code": "vi",
+      "name": "Vietnamese"
+    },
+    {
+      "code": "ur",
+      "name": "Urdu"
+    },
+    {
+      "code": "mr",
+      "name": "Marathi"
+    },
+    {
+      "code": "ky",
+      "name": "Kirghiz"
+    },
+    {
+      "code": "hu",
+      "name": "Hungarian"
+    },
+    {
+      "code": "el",
+      "name": "Greek"
+    },
+    {
+      "code": "ml",
+      "name": "Malayalam"
+    },
+    {
+      "code": "bn",
+      "name": "Bengali"
+    },
+    {
+      "code": "ca",
+      "name": "Catalan"
+    },
+    {
+      "code": "fi",
+      "name": "Finnish"
+    },
+    {
+      "code": "no",
+      "name": "Norwegian"
+    },
+    {
+      "code": "da",
+      "name": "Danish"
+    },
+    {
+      "code": "bg",
+      "name": "Bulgarian"
+    },
+    {
+      "code": "sr",
+      "name": "Serbian"
+    },
+    {
+      "code": "sw",
+      "name": "Swahili"
+    },
+    {
+      "code": "hr",
+      "name": "Croatian"
+    },
+    {
+      "code": "sq",
+      "name": "Albanian"
+    },
+    {
+      "code": "tl",
+      "name": "Tagalog"
+    },
+    {
+      "code": "sk",
+      "name": "Slovak"
+    },
+    {
+      "code": "ta",
+      "name": "Tamil"
+    },
+    {
+      "code": "sh",
+      "name": "Serbo-Croatian"
+    },
+    {
+      "code": "sl",
+      "name": "Slovenian"
+    },
+    {
+      "code": "ps",
+      "name": "Pushto"
+    },
+    {
+      "code": "mk",
+      "name": "Macedonian"
+    },
+    {
+      "code": "km",
+      "name": "Central Khmer"
+    },
+    {
+      "code": "hy",
+      "name": "Armenian"
+    },
+    {
+      "code": "kn",
+      "name": "Kannada"
+    },
+    {
+      "code": "uz",
+      "name": "Uzbek"
+    },
+    {
+      "code": "gl",
+      "name": "Galician"
+    },
+    {
+      "code": "ce",
+      "name": "Chechen"
+    },
+    {
+      "code": "azb",
+      "name": "Azerbaijani, South"
+    },
+    {
+      "code": "af",
+      "name": "Afrikaans"
+    },
+    {
+      "code": "lt",
+      "name": "Lithuanian"
+    },
+    {
+      "code": "ceb",
+      "name": "Cebuano"
+    },
+    {
+      "code": "si",
+      "name": "Sinhala"
+    },
+    {
+      "code": "et",
+      "name": "Estonian"
+    },
+    {
+      "code": "tg",
+      "name": "Tajik"
+    },
+    {
+      "code": "tt",
+      "name": "Tatar"
+    },
+    {
+      "code": "pnb",
+      "name": "Panjabi, Western"
+    },
+    {
+      "code": "bs",
+      "name": "Bosnian"
+    },
+    {
+      "code": "ka",
+      "name": "Georgian"
+    },
+    {
+      "code": "as",
+      "name": "Assamese"
+    },
+    {
+      "code": "lv",
+      "name": "Latvian"
+    },
+    {
+      "code": "lo",
+      "name": "Lao"
+    },
+    {
+      "code": "am",
+      "name": "Amharic"
+    },
+    {
+      "code": "te",
+      "name": "Telugu"
+    },
+    {
+      "code": "my",
+      "name": "Burmese"
+    },
+    {
+      "code": "is",
+      "name": "Icelandic"
+    },
+    {
+      "code": "mn",
+      "name": "Mongolian"
+    },
+    {
+      "code": "sah",
+      "name": "Sakha"
+    },
+    {
+      "code": "mzn",
+      "name": "Mazanderani"
+    },
+    {
+      "code": "ku",
+      "name": "Kurdish"
+    },
+    {
+      "code": "sd",
+      "name": "Sindhi"
+    },
+    {
+      "code": "or",
+      "name": "Oriya"
+    },
+    {
+      "code": "gd",
+      "name": "Gaelic (Scots)"
+    },
+    {
+      "code": "so",
+      "name": "Somali"
+    },
+    {
+      "code": "fy",
+      "name": "Frisian, Western"
+    },
+    {
+      "code": "be",
+      "name": "Belarusian"
+    },
+    {
+      "code": "war",
+      "name": "Waray"
+    },
+    {
+      "code": "als",
+      "name": "Albanian (Tosk)"
+    },
+    {
+      "code": "mhr",
+      "name": "Mari, Eastern"
+    },
+    {
+      "code": "ie",
+      "name": "Interlingue"
+    },
+    {
+      "code": "ba",
+      "name": "Bashkir"
+    },
+    {
+      "code": "tk",
+      "name": "Turkmen"
+    },
+    {
+      "code": "ia",
+      "name": "Interlingua"
+    },
+    {
+      "code": "nds",
+      "name": "Low German"
+    },
+    {
+      "code": "jv",
+      "name": "Javanese"
+    },
+    {
+      "code": "dv",
+      "name": "Divehi"
+    },
+    {
+      "code": "jbo",
+      "name": "Lojban"
+    },
+    {
+      "code": "ug",
+      "name": "Uighur"
+    },
+    {
+      "code": "gn",
+      "name": "Guarani"
+    },
+    {
+      "code": "bo",
+      "name": "Tibetan"
+    },
+    {
+      "code": "nap",
+      "name": "Neapolitan"
+    },
+    {
+      "code": "ilo",
+      "name": "Iloko"
+    },
+    {
+      "code": "mg",
+      "name": "Malagasy"
+    },
+    {
+      "code": "su",
+      "name": "Sundanese"
+    },
+    {
+      "code": "io",
+      "name": "Ido"
+    },
+    {
+      "code": "ga",
+      "name": "Irish"
+    },
+    {
+      "code": "lez",
+      "name": "Lezghian"
+    },
+    {
+      "code": "min",
+      "name": "Minangkabau"
+    },
+    {
+      "code": "ht",
+      "name": "Haitian"
+    },
+    {
+      "code": "kw",
+      "name": "Cornish"
+    },
+    {
+      "code": "bh",
+      "name": "Bihari"
+    },
+    {
+      "code": "yue",
+      "name": "Yue Chinese"
+    },
+    {
+      "code": "ast",
+      "name": "Asturian"
+    },
+    {
+      "code": "new",
+      "name": "Newari"
+    },
+    {
+      "code": "yi",
+      "name": "Yiddish"
+    },
+    {
+      "code": "cv",
+      "name": "Chuvash"
+    },
+    {
+      "code": "mai",
+      "name": "Maithili"
+    },
+    {
+      "code": "pms",
+      "name": "Piedmontese"
+    },
+    {
+      "code": "hsb",
+      "name": "Sorbian, Upper"
+    },
+    {
+      "code": "bar",
+      "name": "Bavarian"
+    },
+    {
+      "code": "sa",
+      "name": "Sanskrit"
+    },
+    {
+      "code": "sco",
+      "name": "Scots"
+    },
+    {
+      "code": "xmf",
+      "name": "Mingrelian"
+    },
+    {
+      "code": "pam",
+      "name": "Pampanga"
+    },
+    {
+      "code": "xh",
+      "name": "Xhosa"
+    },
+    {
+      "code": "krc",
+      "name": "Karachay-Balkar"
+    },
+    {
+      "code": "zu",
+      "name": "Zulu"
+    },
+    {
+      "code": "lrc",
+      "name": "Luri, Northern"
+    },
+    {
+      "code": "rw",
+      "name": "Kinyarwanda"
+    },
+    {
+      "code": "mrj",
+      "name": "Mari, Western"
+    },
+    {
+      "code": "wuu",
+      "name": "Wu Chinese"
+    },
+    {
+      "code": "gv",
+      "name": "Manx"
+    },
+    {
+      "code": "os",
+      "name": "Ossetian"
+    },
+    {
+      "code": "bpy",
+      "name": "Bishnupriya Manipuri"
+    },
+    {
+      "code": "cbk",
+      "name": "Chavacano"
+    },
+    {
+      "code": "eml",
+      "name": "Emiliano-Romagnolo"
+    },
+    {
+      "code": "lmo",
+      "name": "Lombard"
+    },
+    {
+      "code": "rm",
+      "name": "Raeto-Romance"
+    },
+    {
+      "code": "myv",
+      "name": "Erzya"
+    },
+    {
+      "code": "gom",
+      "name": "Konkani, Goan"
+    },
+    {
+      "code": "scn",
+      "name": "Sicilian"
+    },
+    {
+      "code": "li",
+      "name": "Limburgish"
+    },
+    {
+      "code": "kv",
+      "name": "Komi"
+    },
+    {
+      "code": "bcl",
+      "name": "Bicolano, Central"
+    },
+    {
+      "code": "vep",
+      "name": "Veps"
+    },
+    {
+      "code": "bxr",
+      "name": "Buriat, Russia"
+    },
+    {
+      "code": "av",
+      "name": "Avaric"
+    },
+    {
+      "code": "sc",
+      "name": "Sardinian"
+    },
+    {
+      "code": "xal",
+      "name": "Kalmyk"
+    },
+    {
+      "code": "tyv",
+      "name": "Tuvinian"
+    },
+    {
+      "code": "nah",
+      "name": "Nahuatl languages"
+    },
+    {
+      "code": "diq",
+      "name": "Dimli"
+    },
+    {
+      "code": "mwl",
+      "name": "Mirandese"
+    },
+    {
+      "code": "yo",
+      "name": "Yoruba"
+    },
+    {
+      "code": "dty",
+      "name": "Dotyali"
+    },
+    {
+      "code": "vec",
+      "name": "Venetian"
+    },
+    {
+      "code": "vls",
+      "name": "West Flemish"
+    },
+    {
+      "code": "rue",
+      "name": "Rusyn"
+    },
+    {
+      "code": "dsb",
+      "name": "Sorbian, Lower"
+    },
+    {
+      "code": "pfl",
+      "name": "Pfaelzisch"
+    },
+    {
+      "code": "frr",
+      "name": "Frisian, Northern"
+    },
+    {
+      "code": "co",
+      "name": "Corsican"
+    }
+  ]
+}
