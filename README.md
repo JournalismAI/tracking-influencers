@@ -10,48 +10,48 @@ some are currently private but will become public
 
 ### ✏️ backend-docs-influencers
 Documentation backend
-> [backend-docs-influencers](https://github.com/jaifp-tracking-influencers/backend-docs-influencers)
+> [backend-docs-influencers](https://github.com/JournalismAI/tracking-influencers/backend-docs-influencers)
 
 ### 📸 frontend-influencers
 Project documentation
-> [frontend-influencers](https://github.com/jaifp-tracking-influencers/frontend-influencers)
+> [frontend-influencers](https://github.com/JournalismAI/tracking-influencers/frontend-influencers)
 
 
 ### ⚙️ backend-influencers
 Strapi CMS
-> [backend-influencers](https://github.com/jaifp-tracking-influencers/backend-influencers)
+> [backend-influencers](https://github.com/JournalismAI/tracking-influencers/backend-influencers)
 
 
 ### 📈 analysis
 Data analysis script
-> [analysis](https://github.com/jaifp-tracking-influencers/analysis)
+> [analysis](https://github.com/JournalismAI/tracking-influencers/analysis)
 
 
 ### 🔎 ig-scraping-test
 Python scraping library tests
-> [ig-scraping-test](https://github.com/jaifp-tracking-influencers/ig-scraping-test)
+> [ig-scraping-test](https://github.com/JournalismAI/tracking-influencers/ig-scraping-test)
 
 
 ### ↔️ tensorsocial-to-strapi
 Script to import data from Tensor Social to db
-> [tensorsocial-to-strapi](https://github.com/jaifp-tracking-influencers/tensorsocial-to-strapi)
+> [tensorsocial-to-strapi](https://github.com/JournalismAI/tracking-influencers/tensorsocial-to-strapi)
 
 
 ### 👁️‍🗨️ influ-post-import
 Script to import scraped posts to db
-> [influ-post-import](https://github.com/jaifp-tracking-influencers/influ-post-import)
+> [influ-post-import](https://github.com/JournalismAI/tracking-influencers/influ-post-import)
 
 
 ### 🛠️ tensorsocial
 App to interact with Tensor Social API
-> [tensorsocial](https://github.com/jaifp-tracking-influencers/tensorsocial)
+> [tensorsocial](https://github.com/JournalismAI/tracking-influencers/tensorsocial)
 
 
 ### 🇹 tensorquery
 Chrome extension to save Tensor Social query locally for the API use
-> [tensorquery](https://github.com/jaifp-tracking-influencers/tensorquery)
+> [tensorquery](https://github.com/JournalismAI/tracking-influencers/tensorquery)
 
 ### 🏷️ brands-import
 Script to import Instagram profiles of 25,282 brands to db
-> [brands-import](https://github.com/jaifp-tracking-influencers/brands-import)
+> [brands-import](https://github.com/JournalismAI/tracking-influencers/brands-import)
 
