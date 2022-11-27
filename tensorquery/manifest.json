@@ -1,0 +1,26 @@
+{
+  "name": "Tensor Query",
+  "action": {},
+  "manifest_version": 3,
+  "version": "1.1.2",
+  "description": "Save Tensor Social query locally for the API use",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "webRequest",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+		"https://app.tensorsocial.com/*",
+		"https://api.tensorsocial.com/*"
+	],
+  "icons": {
+		"16": "assets/icons/icon16.png",
+		"32": "assets/icons/icon32.png",
+		"48": "assets/icons/icon48.png",
+		"128": "assets/icons/icon128.png"
+	}
+}
