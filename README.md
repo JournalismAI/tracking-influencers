@@ -12,13 +12,13 @@ Methodology and system that helps to investigate social media influencers and id
 
 Documentation backend
 
-> [backend-docs-influencers](./backend-docs-influencers/)
+> [backend-docs-influencers](backend-docs-influencers)
 
 ### 📸 frontend-influencers
 
 Project documentation
 
-> [frontend-influencers](./frontend-influencers/)
+> [frontend-influencers](frontend-influencers)
 
 ### ⚙️ backend-influencers
 
