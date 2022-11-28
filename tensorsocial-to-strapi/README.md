@@ -2,7 +2,7 @@
 
 Script to import data from Tensor Social to Strapi
 
-![tensorsocial-to-strapi](https://github.com/JournalismAI/tracking-influencers/tree/main/assets/img/tensorsocial-to-strapi-schema-700px.jpg)
+![tensorsocial-to-strapi](https://github.com/JournalismAI/tracking-influencers/raw/main/assets/img/tensorsocial-to-strapi-schema-700px.jpg)
 
 ## Disclaimer
 

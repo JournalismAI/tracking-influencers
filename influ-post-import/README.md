@@ -2,7 +2,7 @@
 
 Script to import data to Strapi based on content-types and relations
 
-![tensorsocial-to-strapi](https://github.com/JournalismAI/tracking-influencers/tree/main/assets/img/content-types.jpg)
+![tensorsocial-to-strapi](https://github.com/JournalismAI/tracking-influencers/raw/main/assets/img/content-types.jpg)
 
 ## Disclaimer
 
