@@ -12,58 +12,58 @@ Methodology and system that helps to investigate social media influencers and id
 
 Documentation backend
 
-> [backend-docs-influencers](backend-docs-influencers)
+> [backend-docs-influencers](https://github.com/JournalismAI/tracking-influencers/backend-docs-influencers)
 
 ### 📸 frontend-influencers
 
 Project documentation
 
-> [frontend-influencers](frontend-influencers)
+> [frontend-influencers](https://github.com/JournalismAI/tracking-influencers/frontend-influencers)
 
 ### ⚙️ backend-influencers
 
 Strapi CMS
 
-> [backend-influencers](backend-influencers/)
+> [backend-influencers](https://github.com/JournalismAI/tracking-influencers/backend-influencers)
 
 ### 📈 analysis
 
 Data analysis script
 
-> [analysis](analysis/)
+> [analysis](https://github.com/JournalismAI/tracking-influencers/analysis)
 
 ### ↔️ tensorsocial-to-strapi
 
 Script to import data from Tensor Social to db
 
-> [tensorsocial-to-strapi](tensorsocial-to-strapi/)
+> [tensorsocial-to-strapi](https://github.com/JournalismAI/tracking-influencers/tensorsocial-to-strapi)
 
 ### 👁️‍🗨️ influ-post-import
 
 Script to import scraped posts to db
 
-> [influ-post-import](influ-post-import/)
+> [influ-post-import](https://github.com/JournalismAI/tracking-influencers/influ-post-import)
 
 ### 🛠️ tensorsocial
 
 App to interact with Tensor Social API
 
-> [tensorsocial](tensorsocial/)
+> [tensorsocial](https://github.com/JournalismAI/tracking-influencers/tensorsocial)
 
 ### 🇹 tensorquery
 
 Chrome extension to save Tensor Social query locally for the API use
 
-> [tensorquery](tensorquery/)
+> [tensorquery](https://github.com/JournalismAI/tracking-influencers/tensorquery)
 
 ### 🏷️ brands-import
 
 Script to import Instagram profiles of 25,282 brands to db
 
-> [brands-import](brands-import/)
+> [brands-import](https://github.com/JournalismAI/tracking-influencers/brands-import)
 
 ### 🔎 lib-test
 
 Python scraping library tests
 
-> [lib-test](lib-test/)
+> [lib-test](https://github.com/JournalismAI/tracking-influencers/lib-test)
