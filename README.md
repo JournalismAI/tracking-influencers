@@ -6,7 +6,6 @@ Methodology and system that helps to investigate social media influencers and id
 > [web app url](https://tracking-influencers.com/)
 
 ## Repos
-some are currently private but will become public
 
 ### ✏️ backend-docs-influencers
 Documentation backend
