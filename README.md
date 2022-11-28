@@ -36,7 +36,7 @@ Data analysis script
 
 Script to import data from Tensor Social to db
 
-> [tensorsocial-to-strapi](https://github.com/JournalismAI/tracking-influencers/tensorsocial-to-strapi)
+> [tensorsocial-to-strapi](tensorsocial-to-strapi)
 
 ### 👁️‍🗨️ influ-post-import
 
