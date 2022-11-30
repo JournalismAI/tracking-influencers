@@ -8,18 +8,6 @@ Methodology and system that helps to investigate social media influencers and id
 
 ## Repos
 
-### ✏️ backend-docs-influencers
-
-Documentation backend
-
-> [backend-docs-influencers](backend-docs-influencers)
-
-### 📸 frontend-influencers
-
-Project documentation
-
-> [frontend-influencers](frontend-influencers)
-
 ### ⚙️ backend-influencers
 
 Strapi CMS
@@ -61,6 +49,14 @@ Chrome extension to save Tensor Social query locally for the API use
 Script to import Instagram profiles of 25,282 brands to db
 
 > [brands-import](brands-import)
+
+
+### 📸 frontend-influencers
+
+Project documentation
+
+> [frontend-influencers](frontend-influencers)
+
 
 ### 🔎 lib-test
 
