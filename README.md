@@ -56,16 +56,18 @@ Script to import Instagram profiles of 25,282 brands to db
 
 > [brands-import](brands-import)
 
-
 ### 📸 frontend-influencers
 
 Project documentation
 
 > [frontend-influencers](frontend-influencers)
 
-
 ### 🔎 lib-test
 
 Python scraping library tests
 
 > [lib-test](lib-test)
+
+## 📬 Contacts
+
+[jaifp.tracking.influencers@gmail.com](mailto:jaifp.tracking.influencers@gmail.com)
