@@ -70,4 +70,5 @@ Python scraping library tests
 
 ## 📬 Contacts
 
+For questions, notices or collaborations, please write to
 [jaifp.tracking.influencers@gmail.com](mailto:jaifp.tracking.influencers@gmail.com)
