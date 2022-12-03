@@ -97,4 +97,4 @@ Python scraping library tests to collect data about Instagram influencers
 ## 📬 Let's keep in touch
 
 For questions, notices or collaborations, please write us at
-[jaifp.tracking.influencers@gmail.com](mailto:jaifp.tracking.influencers@gmail.com)
+[hello@journalismai.info](mailto:hello@journalismai.info)
