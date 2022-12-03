@@ -1,4 +1,4 @@
-# ![LOGO](https://github.com/jaifp-tracking-influencers/assets/raw/main/img/logo-50x50.png) Tracking influencers
+# ![LOGO](https://github.com/jaifp-tracking-influencers/assets/raw/main/img/logo-50x50.png) Tracking Influencers
 
 [Tracking Influencers](https://tracking-influencers.com/) aims to help journalists investigate influencers on social platforms on a greater scale using AI technologies and developing a replicable methodology. The initial focus of the project is on Instagram and specifically on creating a system to flag those users who are promoting brands or services without complying with the guidelines that mandate disclosure of all commercial relationships.
 
