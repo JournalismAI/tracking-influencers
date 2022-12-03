@@ -1,6 +1,6 @@
 # ![LOGO](https://github.com/jaifp-tracking-influencers/assets/raw/main/img/logo-50x50.png) Tracking influencers
 
-[Tracking influencers](https://tracking-influencers.com/) aims to help journalists investigate influencers on social platforms on a greater scale using AI technologies and developing a replicable methodology. The initial focus of the project is on Instagram and specifically on creating a system to flag those users who are promoting brands or services without complying with the guidelines that mandate disclosure of all commercial relationships.
+[Tracking Influencers](https://tracking-influencers.com/) aims to help journalists investigate influencers on social platforms on a greater scale using AI technologies and developing a replicable methodology. The initial focus of the project is on Instagram and specifically on creating a system to flag those users who are promoting brands or services without complying with the guidelines that mandate disclosure of all commercial relationships.
 
 This project is part of the [2022 JournalismAI Fellowship Programme](https://www.lse.ac.uk/media-and-communications/polis/JournalismAI/Fellowship-Programme). The Fellowship brought together 46 journalists and technologists from across the world to collaboratively explore innovative solutions to improve journalism via the use of AI technologies. You can explore all the Fellowship projects [at this link](https://www.lse.ac.uk/media-and-communications/polis/JournalismAI/Fellowship-Programme).
 
