@@ -20,7 +20,7 @@ The report of this adventure: the challenges faced, the goals achieved and those
 
 The content management system used to store the data, with the content-types and the relationships implemented.
 
-> [backend-influencers](backend-influencers)
+> [repo backend-influencers](backend-influencers)
 
 > [More info in the "Strapi Rest API" section](https://tracking-influencers.com/docs/gathering-data#strapi-rest-api)
 
@@ -28,7 +28,7 @@ The content management system used to store the data, with the content-types and
 
 Chrome extension to save and download the query made on social media platform Tensor Social locally in a json format.
 
-> [tensorquery](tensorquery)
+> [repo tensorquery](tensorquery)
 
 > [More info in the "Marketing platforms" section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
 
@@ -36,7 +36,7 @@ Chrome extension to save and download the query made on social media platform Te
 
 App to interact with Tensor Social API
 
-> [tensorsocial](tensorsocial)
+> [repo tensorsocial](tensorsocial)
 
 > [More info in the "Marketing platforms" section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
 
@@ -44,7 +44,7 @@ App to interact with Tensor Social API
 
 Python script to import influencers data from Tensor Social to database via Strapi CMS
 
-> [tensorsocial-to-strapi](tensorsocial-to-strapi)
+> [repo tensorsocial-to-strapi](tensorsocial-to-strapi)
 
 > [More info in the "Marketing platforms" section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
 
@@ -52,7 +52,7 @@ Python script to import influencers data from Tensor Social to database via Stra
 
 Service collects data associated with users' accounts on Instagram
 
-> [diata](diata)
+> [repo diata](diata)
 
 > [More info in the "Scrapers" section](https://tracking-influencers.com/docs/gathering-data#gathering-the-data)
 
@@ -60,7 +60,7 @@ Service collects data associated with users' accounts on Instagram
 
 Python script to import scraped posts to database
 
-> [influ-post-import](influ-post-import)
+> [repo influ-post-import](influ-post-import)
 
 > [More info in the "Gathering the data" section](https://tracking-influencers.com/docs/gathering-data#gathering-the-data)
 
@@ -68,7 +68,7 @@ Python script to import scraped posts to database
 
 Script to import Instagram profiles of 25,282 brands to database
 
-> [brands-import](brands-import)
+> [repo brands-import](brands-import)
 
 > [More info in the "Brands dataset" section](https://tracking-influencers.com/docs/gathering-data#brands-dataset)
 
@@ -76,7 +76,7 @@ Script to import Instagram profiles of 25,282 brands to database
 
 Python and R scripts to conduct the exploratory data analysis for profiles and captions.
 
-> [analysis](analysis)
+> [repo analysis](analysis)
 
 > [More info in the "Analysis" section](https://tracking-influencers.com/docs/analysis)
 
@@ -84,13 +84,13 @@ Python and R scripts to conduct the exploratory data analysis for profiles and c
 
 The project documentation app made in Next.js
 
-> [frontend-influencers](frontend-influencers)
+> [repo frontend-influencers](frontend-influencers)
 
 ### 🔎 lib-test
 
 Python scraping library tests to collect data about Instagram influencers
 
-> [lib-test](lib-test)
+> [repo lib-test](lib-test)
 
 > [More info in the "Scrapers" section](https://tracking-influencers.com/docs/gathering-data#gathering-the-data)
 
