@@ -36,7 +36,7 @@ time.sleep(5)
 searchbox = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Search']")))
 searchbox.clear()
 
-keyword = "ilsole_24ore"
+keyword = "my_account"
 searchbox.send_keys(keyword)
 my_link = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, '/" + keyword + "/')]")))
 my_link.click()

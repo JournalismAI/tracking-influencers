@@ -2,7 +2,9 @@
 
 ![Tensor Query](assets/icons/icon128.png)
 
-Chrome extnesion to save [Tensor Social](https://tensorsocial.com/) query locally for the API interaction.
+Chrome extension to save [Tensor Social](https://tensorsocial.com/) query locally for the API interaction.
+
+> [More info in the "Marketing platforms" section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
 
 ![Tensor Query](brand/banner.png)
 

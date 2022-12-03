@@ -2,6 +2,8 @@
 
 App collects data from [Tensor Social](https://tensorsocial.com/) API.
 
+> [More info in the "Marketing platforms" section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
+
 ## Setup
 
 ```sh

@@ -1,8 +1,10 @@
 # brands-import
 
-Script to import Instagram profiles of 25,282 brands to Strapi.
+Script to import Instagram profiles of 25,282 brands to database.
 
-Original profiles_brands.zip from [Instagram Influencer Dataset](https://sites.google.com/site/sbkimcv/dataset?authuser=0)
+> [More info in the "Brands dataset" section of the documentation](https://tracking-influencers.com/docs/gathering-data#brands-dataset)
+
+The data is part of a larger dataset of influencers created by the University of South Florida’s researcher Seungbae Kim and available at [this link](https://sites.google.com/site/sbkimcv/dataset?authuser=0).
 
 ## Disclaimer
 

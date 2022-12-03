@@ -1,8 +1,10 @@
 # influ-post-import
 
-Script to import data to Strapi based on content-types and relations
+Script to import data to database via Strapi CMS and based on content-types and relations.
 
 ![tensorsocial-to-strapi](https://github.com/JournalismAI/tracking-influencers/raw/main/assets/img/content-types.jpg)
+
+> [More info in the "Gathering the data" section of the documentation](https://tracking-influencers.com/docs/gathering-data#gathering-the-data)
 
 ## Disclaimer
 

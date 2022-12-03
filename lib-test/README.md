@@ -1,6 +1,12 @@
 # Scraping test repository
 
-Test to evaluate some Python scraping libraries for Instagram
+Scripts to test some Python scraping libraries for Instagram:
+
+- Selenium
+- Instaloader
+- Instascrape
+
+> [More info in the "Scrapers" section of the documentation](https://tracking-influencers.com/docs/gathering-data#gathering-the-data)
 
 ## Disclaimer
 

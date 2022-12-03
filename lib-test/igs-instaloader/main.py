@@ -13,7 +13,7 @@ L.login(MY_USERNAME, MY_PASSWORD)
 
 
 # PROFILE = input('Enter an account username: ')
-PROFILE = 'ilsole_24ore'
+PROFILE = 'my_account'
 
 L.download_profile(PROFILE, profile_pic_only=True)
 profile_id = L.check_profile_id(PROFILE)

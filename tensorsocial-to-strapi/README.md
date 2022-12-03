@@ -1,8 +1,10 @@
 # tensorsocial-to-strapi
 
-Script to import data from Tensor Social to Strapi
+Python script to import influencers data from Tensor Social to database via Strapi CMS
 
 ![tensorsocial-to-strapi](https://github.com/JournalismAI/tracking-influencers/raw/main/assets/img/tensorsocial-to-strapi-schema-700px.jpg)
+
+> [More info in the "Marketing platforms" section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
 
 ## Disclaimer
 

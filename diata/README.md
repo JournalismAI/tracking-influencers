@@ -2,6 +2,8 @@
 
 Service downloads profile, posts, images, tags, and location data associated with users' accounts available on Instagram via serverless ephemeral cloud functions.
 
+> [More info in the "Scrapers" section of the documentation](https://tracking-influencers.com/docs/gathering-data#gathering-the-data)
+
 ## Setup
 
 ```sh

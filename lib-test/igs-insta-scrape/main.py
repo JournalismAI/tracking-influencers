@@ -14,7 +14,7 @@ headers = {
     "cookie": "sessionid=" + MY_SESSION_ID + ";"
 }
 
-account = "ilsole_24ore"
+account = "my_account"
 
 # create folder to store json and images
 import os

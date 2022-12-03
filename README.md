@@ -10,7 +10,7 @@ The project was developed as a collaboration between [Sky News](https://news.sky
 
 ## 📃 Project documentation
 
-The report of this adventure: the challenges faced, the goals achieved and those still to be implemented, the mistakes made and the advice to avoid repeating them.
+The report of this adventure: the challenges faced, the goals achieved and those still to be implemented, the mistakes made and the advices to avoid repeating them.
 
 > [https://tracking-influencers.com/](https://tracking-influencers.com/)
 
@@ -22,15 +22,15 @@ The content management system used to store the data, with the content-types and
 
 > [backend-influencers](backend-influencers)
 
-> [More info in the Strapi Rest API section](https://tracking-influencers.com/docs/gathering-data#strapi-rest-api)
+> [More info in the "Strapi Rest API" section](https://tracking-influencers.com/docs/gathering-data#strapi-rest-api)
 
 ### 🇹 tensorquery
 
-Chrome extension to save Tensor Social query locally for the API use
+Chrome extension to save and download the query made on social media platform Tensor Social locally in a json format.
 
 > [tensorquery](tensorquery)
 
-> [More info in the Marketing platforms section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
+> [More info in the "Marketing platforms" section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
 
 ### 🛠️ tensorsocial
 
@@ -38,15 +38,23 @@ App to interact with Tensor Social API
 
 > [tensorsocial](tensorsocial)
 
-> [More info in the Marketing platforms section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
+> [More info in the "Marketing platforms" section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
 
 ### ↔️ tensorsocial-to-strapi
 
-Python script to import data from the socialmedia platform Tensor Social to database
+Python script to import influencers data from Tensor Social to database via Strapi CMS
 
 > [tensorsocial-to-strapi](tensorsocial-to-strapi)
 
-> [More info in the Marketing platforms section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
+> [More info in the "Marketing platforms" section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
+
+### 📥 diata
+
+Service collects data associated with users' accounts on Instagram
+
+> [diata](diata)
+
+> [More info in the "Scrapers" section](https://tracking-influencers.com/docs/gathering-data#gathering-the-data)
 
 ### 👁️‍🗨️ influ-post-import
 
@@ -54,33 +62,39 @@ Python script to import scraped posts to database
 
 > [influ-post-import](influ-post-import)
 
+> [More info in the "Gathering the data" section](https://tracking-influencers.com/docs/gathering-data#gathering-the-data)
+
 ### 🏷️ brands-import
 
 Script to import Instagram profiles of 25,282 brands to database
 
 > [brands-import](brands-import)
 
+> [More info in the "Brands dataset" section](https://tracking-influencers.com/docs/gathering-data#brands-dataset)
+
 ### 📈 analysis
 
-The python and R scripts that allowed us to conduct the exploratory analysis of the data collected and to obtain the preliminary results.
+Python and R scripts to conduct the exploratory data analysis for profiles and captions.
 
 > [analysis](analysis)
 
-> [More info in the Analysis section](https://tracking-influencers.com/docs/analysis)
+> [More info in the "Analysis" section](https://tracking-influencers.com/docs/analysis)
 
 ### 📸 frontend-influencers
 
-Project documentation
+The project documentation app made in Next.js
 
 > [frontend-influencers](frontend-influencers)
 
 ### 🔎 lib-test
 
-Python scraping library tests
+Python scraping library tests to collect data about Instagram influencers
 
 > [lib-test](lib-test)
 
-## 📬 Contacts
+> [More info in the "Scrapers" section](https://tracking-influencers.com/docs/gathering-data#gathering-the-data)
 
-For questions, notices or collaborations, please write to
+## 📬 Let's keep in touch
+
+For questions, notices or collaborations, please write us at
 [jaifp.tracking.influencers@gmail.com](mailto:jaifp.tracking.influencers@gmail.com)
