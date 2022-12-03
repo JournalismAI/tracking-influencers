@@ -6,7 +6,7 @@ This project is part of the [2022 JournalismAI Fellowship Programme](https://www
 
 The project was developed as a collaboration between [Sky News](https://news.sky.com/), [Infobae](https://www.infobae.com/) and [Il Sole 24 Ore](https://www.ilsole24ore.com/).
 
-[JournalismAI](https://www.lse.ac.uk/media-and-communications/polis/JournalismAI) is a project of [Polis](https://www.lse.ac.uk/media-and-communications/polis) – the journalism think-tank at the London School of Economics and Political Science – and it’s sponsored by the [Google News Initiative](https://newsinitiative.withgoogle.com/). If you want to know more about the Fellowship and the other JournalismAI activities, [sign up for the newsletter](https://mailchi.mp/lse.ac.uk/journalismai) or get in touch with the team via hello@journalismai.info
+[JournalismAI](https://www.lse.ac.uk/media-and-communications/polis/JournalismAI) is a project of [Polis](https://www.lse.ac.uk/media-and-communications/polis) – the journalism think-tank at the London School of Economics and Political Science – and it’s sponsored by the [Google News Initiative](https://newsinitiative.withgoogle.com/). If you want to know more about the Fellowship and the other JournalismAI activities, [sign up for the newsletter](https://mailchi.mp/lse.ac.uk/journalismai) or get in touch with the team via hello@journalismai.info.
 
 ## 📃 Project documentation
 
@@ -97,4 +97,4 @@ Python scraping library tests to collect data about Instagram influencers
 ## 📬 Let's keep in touch
 
 For questions, notices or collaborations, please write us at
-[hello@journalismai.info](mailto:hello@journalismai.info)
+[jaifp.tracking.influencers@gmail.com](mailto:jaifp.tracking.influencers@gmail.com)
