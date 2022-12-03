@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_elements_addenda",
+  "info": {
+    "displayName": "addendum",
+    "icon": "plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link"
+    },
+    "people": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.person"
+    }
+  }
+}

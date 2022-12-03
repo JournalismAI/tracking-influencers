@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mentions",
+  "info": {
+    "singularName": "mention",
+    "pluralName": "mentions",
+    "displayName": "mention",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "posts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::post.post",
+      "mappedBy": "mentions"
+    },
+    "accounts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::account.account",
+      "mappedBy": "mentions"
+    },
+    "hashtag_groups": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::hashtag-group.hashtag-group",
+      "inversedBy": "mentions"
+    },
+    "text": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "text"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "influencers",
+  "info": {
+    "singularName": "influencer",
+    "pluralName": "influencers",
+    "displayName": "influencer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "text"
+    },
+    "long_description": {
+      "type": "richtext"
+    },
+    "accounts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::account.account",
+      "mappedBy": "influencer"
+    },
+    "countries": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::country.country",
+      "mappedBy": "influencers"
+    },
+    "full_name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "full_name"
+    }
+  }
+}

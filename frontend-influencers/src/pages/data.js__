@@ -1,0 +1,350 @@
+// import { fetchAPI } from '@/lib/api';
+
+import { gql } from '@apollo/client';
+import client from '@/lib/api';
+import Image from 'next/image';
+import Link from 'next/link';
+
+import Layout from '@/components/Layout';
+import Seo from '@/components/Seo';
+
+import { useMemo } from 'react';
+
+import DefaultTable from '@/components/DefaultTable';
+import ColumnFilter from '@/components/ColumnFilter';
+
+import { fetcher } from '@/lib/api';
+import {
+  getTokenFromLocalCookie,
+  getTokenFromServerCookie,
+  getUserFromLocalCookie,
+} from '@/lib/auth';
+
+import { useFetchUser } from '@/lib/authContext';
+import Callout from '@/components/Callout';
+
+const Data_Page = ({ categories, homepage, accounts }) => {
+  const { user, loading } = useFetchUser();
+
+  // data
+  const kids_sole = accounts.filter(
+    (account) =>
+      (account.attributes.hashtag_groups.data[0] &&
+        account.attributes.hashtag_groups.data[0].attributes.slug ==
+          'kids-sole') ||
+      (account.attributes.hashtag_groups.data[1] &&
+        account.attributes.hashtag_groups.data[1].attributes.slug ==
+          'kids-sole') ||
+      (account.attributes.hashtag_groups.data[2] &&
+        account.attributes.hashtag_groups.data[2].attributes.slug ==
+          'kids-sole') ||
+      (account.attributes.hashtag_groups.data[3] &&
+        account.attributes.hashtag_groups.data[3].attributes.slug ==
+          'kids-sole')
+  );
+
+  const kids_sky = accounts.filter(
+    (account) =>
+      (account.attributes.hashtag_groups.data[0] &&
+        account.attributes.hashtag_groups.data[0].attributes.slug ==
+          'kids-sky-news') ||
+      (account.attributes.hashtag_groups.data[1] &&
+        account.attributes.hashtag_groups.data[1].attributes.slug ==
+          'kids-sky-news') ||
+      (account.attributes.hashtag_groups.data[2] &&
+        account.attributes.hashtag_groups.data[2].attributes.slug ==
+          'kids-sky-news') ||
+      (account.attributes.hashtag_groups.data[3] &&
+        account.attributes.hashtag_groups.data[3].attributes.slug ==
+          'kids-sky-news')
+  );
+
+  const kids_infobae = accounts.filter(
+    (account) =>
+      (account.attributes.hashtag_groups.data[0] &&
+        account.attributes.hashtag_groups.data[0].attributes.slug ==
+          'kids-infobae') ||
+      (account.attributes.hashtag_groups.data[1] &&
+        account.attributes.hashtag_groups.data[1].attributes.slug ==
+          'kids-infobae') ||
+      (account.attributes.hashtag_groups.data[2] &&
+        account.attributes.hashtag_groups.data[2].attributes.slug ==
+          'kids-infobae') ||
+      (account.attributes.hashtag_groups.data[3] &&
+        account.attributes.hashtag_groups.data[3].attributes.slug ==
+          'kids-infobae')
+  );
+
+  const columns = useMemo(
+    () => [
+      {
+        Header: 'Username',
+        // accessor: 'accounts.attributes.username',
+        accessor: (data) => (
+          <div className='flex items-center not-prose'>
+            <div className='h-10 w-10 flex-shrink-0'>
+              <a href={data.attributes.url}>
+                <img
+                  className='h-10 w-10 rounded-full'
+                  src={data.attributes.picture}
+                  alt=''
+                />
+              </a>
+            </div>
+            <div className='ml-4'>
+              <div className='font-medium text-gray-900'>
+                <a href={data.attributes.url}>{data.attributes.username}</a>
+              </div>
+              <div className='text-gray-500'></div>
+            </div>
+          </div>
+        ),
+      },
+      {
+        Header: 'Followers',
+        accessor: 'attributes.followers',
+
+        // accessor: (data) => <span>{data.attributes.followers}</span>,
+      },
+      {
+        Header: 'Engagement Rate',
+        accessor: 'attributes.engagement_rate',
+
+        // accessor: (data) => <span>{data.attributes.followers}</span>,
+      },
+      {
+        Header: 'Engagements',
+        accessor: 'attributes.engagements',
+
+        // accessor: (data) => <span>{data.attributes.followers}</span>,
+      },
+    ],
+    []
+  );
+
+  return (
+    <Layout user={user} categories={categories}>
+      <Seo seo={homepage.attributes.seo} />
+      <div>
+        <h2>
+          {kids_sole[0].attributes.hashtag_groups.data[0].attributes.name}
+        </h2>
+        <DefaultTable
+          columns={columns}
+          data={kids_sole}
+          defaultColumn={useMemo(() => {
+            return {
+              Filter: ColumnFilter,
+            };
+          }, [])}
+        />
+
+        <h2>
+          {kids_sky.length ? (
+            kids_sky[0].attributes.hashtag_groups.data[0].attributes.name
+          ) : (
+            <>Kids (Sky): {kids_sky.length}</>
+          )}
+        </h2>
+        <DefaultTable
+          columns={columns}
+          data={kids_sky}
+          defaultColumn={useMemo(() => {
+            return {
+              Filter: ColumnFilter,
+            };
+          }, [])}
+        />
+
+        <h2>
+          {kids_infobae.length ? (
+            kids_infobae[0].attributes.hashtag_groups.data[0].attributes.name
+          ) : (
+            <>Kids (Infobae): {kids_infobae.length}</>
+          )}
+        </h2>
+        <DefaultTable
+          columns={columns}
+          data={kids_infobae}
+          defaultColumn={useMemo(() => {
+            return {
+              Filter: ColumnFilter,
+            };
+          }, [])}
+        />
+
+        {!loading &&
+          (user ? (
+            <>
+              {/* {accounts.map((account, i) => (
+                <div key={i}>
+                  <h2>
+                    <a
+                      target='_blank'
+                      rel='noreferrer'
+                      href={`https://instagram.com/${account.attributes.username}`}
+                    >
+                      {account.attributes.username}
+                    </a>
+                  </h2>
+                  <Image
+                    src={account.attributes.picture}
+                    width={320}
+                    height={320}
+                  />
+                  <p>Followers: {account.attributes.followers}</p>
+                  <hr />
+                </div>
+              ))} */}
+            </>
+          ) : (
+            ''
+          ))}
+        {!loading && (user ? '' : <Callout />)}
+        {/* <Hero hero={homepage.attributes.hero} /> */}
+      </div>
+    </Layout>
+  );
+};
+
+// export async function getServerSideProps({ req }) {
+// const jwt =
+//   typeof window !== 'undefined'
+//     ? getTokenFromLocalCookie
+//     : getTokenFromServerCookie(req);
+// const accountsResponse = await fetcher(
+//   `${process.env.NEXT_PUBLIC_STRAPI_URL}/accounts?populate=*&pagination[page]=1&pagination[pageSize]=30000`,
+//   jwt
+//     ? {
+//         headers: {
+//           Authorization: `Bearer ${jwt}`,
+//         },
+//       }
+//     : ''
+// );
+
+export async function getStaticProps() {
+  const { data } = await client.query({
+    query: gql`
+      query {
+        accounts {
+          data {
+            id
+            attributes {
+              username
+              picture
+              followers
+              url
+              engagement_rate
+              engagements
+              hashtag_groups {
+                data {
+                  attributes {
+                    slug
+                    name
+                  }
+                }
+              }
+              influencer {
+                data {
+                  id
+                  attributes {
+                    name
+                    full_name
+                  }
+                }
+              }
+            }
+          }
+        }
+        home {
+          data {
+            id
+            attributes {
+              hero {
+                id
+                slug
+                title
+                label
+                summary
+                body
+              }
+            }
+          }
+        }
+        categories(sort: "id:asc") {
+          data {
+            id
+            attributes {
+              name
+              slug
+              articles {
+                data {
+                  id
+                  attributes {
+                    slug
+                    title
+                    summary
+                    body
+                    priority
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    `,
+  });
+
+  const accounts = data.accounts;
+  const homepage = data.home;
+  const categories = data.categories;
+  return {
+    props: {
+      accounts: accounts.data,
+      categories: categories.data,
+      homepage: homepage.data,
+    },
+    revalidate: 1,
+  };
+}
+
+export default Data_Page;
+
+// jwt
+//   ? {
+//       headers: {
+//         Authorization: `Bearer ${jwt}`,
+//       },
+//     }
+//   : ''
+
+// const accounts = data.accounts;
+// const homepage = data.home;
+// const categories = data.categories;
+// return {
+//   props: {
+//     categories: categories.data,
+//     homepage: homepage.data,
+//   },
+// }
+
+// if (accounts.data) {
+//   return {
+//     props: {
+//       accounts: accounts.data,
+//       categories: categories.data,
+//       homepage: homepage.data,
+//       jwt: jwt ? jwt : '',
+//     },
+//   };
+// } else {
+//   return {
+//     props: {
+//       error: accountsResponse.error.message,
+//       categories: categories.data,
+//       homepage: homepage.data,
+//     },
+//   };
+// }

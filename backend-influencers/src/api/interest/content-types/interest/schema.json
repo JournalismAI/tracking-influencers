@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interests",
+  "info": {
+    "singularName": "interest",
+    "pluralName": "interests",
+    "displayName": "interest"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "niches": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::niche.niche",
+      "inversedBy": "interests"
+    },
+    "accounts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::account.account",
+      "mappedBy": "interests"
+    }
+  }
+}

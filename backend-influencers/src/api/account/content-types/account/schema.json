@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accounts",
+  "info": {
+    "singularName": "account",
+    "pluralName": "accounts",
+    "displayName": "account",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "username"
+    },
+    "platform": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::platform.platform",
+      "inversedBy": "accounts"
+    },
+    "influencer": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::influencer.influencer",
+      "inversedBy": "accounts"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post",
+      "mappedBy": "account"
+    },
+    "mentions": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::mention.mention",
+      "inversedBy": "accounts"
+    },
+    "brand": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::brand.brand",
+      "inversedBy": "accounts"
+    },
+    "interests": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::interest.interest",
+      "inversedBy": "accounts"
+    },
+    "url": {
+      "type": "string"
+    },
+    "followers": {
+      "type": "biginteger"
+    },
+    "engagements": {
+      "type": "biginteger"
+    },
+    "engagement_rate": {
+      "type": "float"
+    },
+    "ts_user_id": {
+      "type": "uid",
+      "targetField": "username"
+    },
+    "picture": {
+      "type": "string"
+    },
+    "hashtags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::hashtag.hashtag",
+      "inversedBy": "accounts"
+    },
+    "hashtag_groups": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::hashtag-group.hashtag-group",
+      "mappedBy": "accounts"
+    }
+  }
+}

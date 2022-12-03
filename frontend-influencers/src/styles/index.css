@@ -1,0 +1,31 @@
+@import 'tailwindcss/base';
+@import './fonts.css';
+@import './docsearch.css';
+@import './prism.css';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@heroicons /react/outline;
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.addenda {
+  table {
+    @apply my-0 py-0 min-w-full divide-y divide-gray-200 dark:divide-slate-800 table-fixed;
+    p {
+      @apply m-0;
+    }
+  }
+  figure.table {
+    @apply my-0 py-0;
+  }
+}

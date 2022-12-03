@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "countries",
+  "info": {
+    "singularName": "country",
+    "pluralName": "countries",
+    "displayName": "country",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "influencers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::influencer.influencer",
+      "inversedBy": "countries"
+    },
+    "ts_id": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "ts_code": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}

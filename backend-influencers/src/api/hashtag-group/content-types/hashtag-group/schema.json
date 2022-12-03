@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hashtag_groups",
+  "info": {
+    "singularName": "hashtag-group",
+    "pluralName": "hashtag-groups",
+    "displayName": "Hashtag Group",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "description": {
+      "type": "text"
+    },
+    "query": {
+      "type": "json"
+    },
+    "hashtags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::hashtag.hashtag",
+      "inversedBy": "hashtag_groups"
+    },
+    "accounts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::account.account",
+      "inversedBy": "hashtag_groups"
+    },
+    "searches": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::search.search",
+      "inversedBy": "hashtag_groups"
+    },
+    "mentions": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::mention.mention",
+      "mappedBy": "hashtag_groups"
+    }
+  }
+}

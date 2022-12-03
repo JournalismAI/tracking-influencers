@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "niches",
+  "info": {
+    "singularName": "niche",
+    "pluralName": "niches",
+    "displayName": "niche"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "interests": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::interest.interest",
+      "inversedBy": "niches"
+    }
+  }
+}

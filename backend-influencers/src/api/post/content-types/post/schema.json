@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "caption": {
+      "type": "text"
+    },
+    "mentions": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::mention.mention",
+      "inversedBy": "posts"
+    },
+    "hashtags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::hashtag.hashtag",
+      "mappedBy": "posts"
+    },
+    "account": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::account.account",
+      "inversedBy": "posts"
+    },
+    "url": {
+      "type": "string"
+    },
+    "image_url": {
+      "type": "text"
+    },
+    "image_filename": {
+      "type": "string"
+    },
+    "is_video": {
+      "type": "boolean"
+    },
+    "comments_count": {
+      "type": "integer"
+    },
+    "likes_count": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "location_name": {
+      "type": "string"
+    },
+    "location_url": {
+      "type": "text"
+    },
+    "lat": {
+      "type": "string"
+    },
+    "lng": {
+      "type": "string"
+    },
+    "should_request_ads": {
+      "type": "boolean"
+    },
+    "commerciality_status": {
+      "type": "string"
+    },
+    "is_paid_partnership": {
+      "type": "boolean"
+    },
+    "product_type": {
+      "type": "string"
+    },
+    "post_id": {
+      "type": "string"
+    }
+  }
+}

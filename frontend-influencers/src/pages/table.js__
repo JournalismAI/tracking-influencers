@@ -1,0 +1,110 @@
+import Layout from '@/components/Layout';
+
+import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
+import { useMemo } from 'react';
+
+import DefaultTable from '@/components/DefaultTable';
+import ColumnFilter from '@/components/ColumnFilter';
+
+const Table_page = ({ categories, influencers }) => {
+  const columns = useMemo(
+    () => [
+      {
+        Header: 'ID',
+        accessor: 'id',
+      },
+      {
+        Header: 'NAME',
+        accessor: 'attributes.name',
+      },
+      {
+        Header: 'LASTNAME',
+        accessor: 'attributes.lastname',
+      },
+    ],
+    []
+  );
+
+  return (
+    <Layout categories={categories}>
+      <DefaultTable
+        columns={columns}
+        data={influencers}
+        defaultColumn={useMemo(() => {
+          return {
+            Filter: ColumnFilter,
+          };
+        }, [])}
+      />
+    </Layout>
+  );
+};
+
+// export async function getStaticProps() {
+//   // Run API calls in parallel
+//   const [articlesRes, categoriesRes, homepageRes] = await Promise.all([
+//     fetchAPI('/articles', { populate: '*' }),
+//     fetchAPI('/categories', { populate: '*' }),
+//     fetchAPI('/home', {
+//       populate: {
+//         hero: '*',
+//         seo: { populate: '*' },
+//       },
+//     }),
+//   ]);
+
+//   return {
+//     props: {
+//       articles: articlesRes.data,
+//       categories: categoriesRes.data,
+//       homepage: homepageRes.data,
+//     },
+//     revalidate: 1,
+//   };
+// }
+
+export async function getStaticProps() {
+  const client = new ApolloClient({
+    uri: `${
+      process.env.NEXT_PUBLIC_STRAPI_API_URL || 'http://localhost:1337'
+    }/graphql`,
+    cache: new InMemoryCache(),
+  });
+
+  const { data } = await client.query({
+    query: gql`
+      query {
+        influencers {
+          data {
+            id
+            attributes {
+              name
+              lastname
+            }
+          }
+        }
+        categories {
+          data {
+            id
+            attributes {
+              name
+            }
+          }
+        }
+      }
+    `,
+  });
+
+  const influencers = data.influencers.data;
+  const categories = data.categories.data;
+
+  return {
+    props: {
+      influencers,
+      categories,
+    },
+    revalidate: 1,
+  };
+}
+
+export default Table_page;

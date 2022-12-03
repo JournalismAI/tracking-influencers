@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "searches",
+  "info": {
+    "singularName": "search",
+    "pluralName": "searches",
+    "displayName": "search"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "text"
+    },
+    "hashtag_groups": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::hashtag-group.hashtag-group",
+      "mappedBy": "searches"
+    }
+  }
+}

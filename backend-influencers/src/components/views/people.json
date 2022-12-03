@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_views_people",
+  "info": {
+    "displayName": "people",
+    "icon": "users"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "people": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.person"
+    }
+  }
+}

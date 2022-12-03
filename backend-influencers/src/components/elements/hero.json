@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_elements_heroes",
+  "info": {
+    "displayName": "hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string",
+      "unique": false
+    },
+    "summary": {
+      "type": "text"
+    }
+  }
+}
