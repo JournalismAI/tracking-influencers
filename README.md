@@ -10,39 +10,19 @@ The project was developed as a collaboration between [Sky News](https://news.sky
 
 ## 📃 Project documentation
 
-> [web app url](https://tracking-influencers.com/)
+The report of this adventure: the challenges faced, the goals achieved and those still to be implemented, the mistakes made and the advice to avoid repeating them.
+
+> [https://tracking-influencers.com/](https://tracking-influencers.com/)
 
 ## Repos
 
 ### ⚙️ backend-influencers
 
-Strapi CMS
+The content management system used to store the data, with the content-types and the relationships implemented.
 
 > [backend-influencers](backend-influencers)
 
-### 📈 analysis
-
-Data analysis script
-
-> [analysis](analysis)
-
-### ↔️ tensorsocial-to-strapi
-
-Script to import data from Tensor Social to db
-
-> [tensorsocial-to-strapi](tensorsocial-to-strapi)
-
-### 👁️‍🗨️ influ-post-import
-
-Script to import scraped posts to db
-
-> [influ-post-import](influ-post-import)
-
-### 🛠️ tensorsocial
-
-App to interact with Tensor Social API
-
-> [tensorsocial](tensorsocial)
+> [More info in the Strapi Rest API section](https://tracking-influencers.com/docs/gathering-data#strapi-rest-api)
 
 ### 🇹 tensorquery
 
@@ -50,11 +30,43 @@ Chrome extension to save Tensor Social query locally for the API use
 
 > [tensorquery](tensorquery)
 
+> [More info in the Marketing platforms section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
+
+### 🛠️ tensorsocial
+
+App to interact with Tensor Social API
+
+> [tensorsocial](tensorsocial)
+
+> [More info in the Marketing platforms section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
+
+### ↔️ tensorsocial-to-strapi
+
+Python script to import data from the socialmedia platform Tensor Social to database
+
+> [tensorsocial-to-strapi](tensorsocial-to-strapi)
+
+> [More info in the Marketing platforms section](https://tracking-influencers.com/docs/platform-and-accounts-selection#social-media-marketing-platforms)
+
+### 👁️‍🗨️ influ-post-import
+
+Python script to import scraped posts to database
+
+> [influ-post-import](influ-post-import)
+
 ### 🏷️ brands-import
 
-Script to import Instagram profiles of 25,282 brands to db
+Script to import Instagram profiles of 25,282 brands to database
 
 > [brands-import](brands-import)
+
+### 📈 analysis
+
+The python and R scripts that allowed us to conduct the exploratory analysis of the data collected and to obtain the preliminary results.
+
+> [analysis](analysis)
+
+> [More info in the Analysis section](https://tracking-influencers.com/docs/analysis)
 
 ### 📸 frontend-influencers
 
