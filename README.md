@@ -16,6 +16,8 @@ The report of this adventure: the challenges faced, the goals achieved and those
 
 ## Repos
 
+The project is in progress, so the code in these repositories is periodically updated and corrected.
+
 ### ⚙️ backend-influencers
 
 The content management system used to store the data, with the content-types and the relationships implemented.
