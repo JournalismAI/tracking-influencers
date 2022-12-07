@@ -6,6 +6,8 @@ Script to import Instagram profiles of 25,282 brands to database.
 
 The data is part of a larger dataset of influencers created by the University of South Florida’s researcher Seungbae Kim and available at [this link](https://sites.google.com/site/sbkimcv/dataset?authuser=0).
 
+Note: to work properly you need to configure your own config.py file
+
 ## Disclaimer
 
 The use of the research software provided in this release is done at your own discretion and risk and you will be solely responsible for any damage to your computer system or loss of data that results from such activities. You are solely responsible for adequate protection and backup of the data and equipment used in connection with research software.

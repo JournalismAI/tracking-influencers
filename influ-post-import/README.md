@@ -6,6 +6,8 @@ Script to import data to database via Strapi CMS and based on content-types and 
 
 > [More info in the "Gathering the data" section of the documentation](https://tracking-influencers.com/docs/gathering-data#gathering-the-data)
 
+Note: to work properly you need to configure your own config.py file
+
 ## Disclaimer
 
 The use of the research software provided in this release is done at your own discretion and risk and you will be solely responsible for any damage to your computer system or loss of data that results from such activities. You are solely responsible for adequate protection and backup of the data and equipment used in connection with research software.
