@@ -60,7 +60,7 @@ Service collects data associated with users' accounts on Instagram
 
 ### 👁️‍🗨️ influ-post-import
 
-Python script to import scraped posts to database
+Python script to import scraped posts to the database
 
 > [repo influ-post-import](influ-post-import)
 
@@ -68,7 +68,7 @@ Python script to import scraped posts to database
 
 ### 🏷️ brands-import
 
-Script to import Instagram profiles of 25,282 brands to database
+Script to import Instagram brands' profiles to the database
 
 > [repo brands-import](brands-import)
 
