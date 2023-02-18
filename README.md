@@ -16,7 +16,7 @@ The report of this adventure: the challenges faced, the goals achieved and those
 
 ## Repos
 
-The project is in progress, so the code in these repositories is periodically updated and corrected.
+
 
 ### ⚙️ backend-influencers
 
